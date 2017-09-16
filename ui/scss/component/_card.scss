@@ -153,6 +153,10 @@ $card-link-scaling: 1.1;
   top: 36%
 }
 
+.card__indicators {
+  float: right;
+}
+
 .card--small {
   width: $width-card-small;
   overflow-x: hidden;

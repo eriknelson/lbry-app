@@ -173,7 +173,7 @@ class SettingsPage extends React.PureComponent {
         </section>
         <section className="card">
           <div className="card__content">
-            <h3>{__("Max Purchase Price")}</h3>
+            <h3>{__("Purchase Settings")}</h3>
           </div>
           <div className="card__content">
             <FormRow
@@ -216,12 +216,6 @@ class SettingsPage extends React.PureComponent {
                 "This will prevent you from purchasing any content over this cost, as a safety measure."
               )}
             </div>
-          </div>
-        </section>
-
-        <section className="card">
-          <div className="card__content">
-            <h3>{__("Instant Purchase")}</h3>
           </div>
           <div className="card__content">
             <div className="form-row">
